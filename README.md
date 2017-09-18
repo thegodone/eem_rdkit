@@ -9,9 +9,13 @@ It compiles on mac os sierra using the following commands:
 Please change the BOOST/RDKIT paths to your own environement
 
 export BOOST=/usr/local/Cellar/boost/1.65.1/include/
+
 export RDBASEINCLUDE=/usr/local/Cellar/rdkit/HEAD-93c92c4/include/rdkit/
-export RDBASELIB=/usr/local/Cellar/rdkit/HEAD-93c92c4/lib
+
+export RDBASELIB=/usr/local/Cellar/rdkit/HEAD-93c92c4/lib/
+
 export BOOSTINCLUDE=/usr/local/Cellar/boost/1.65.1/include/boost/
+
 export BOOSTLIB=/usr/local/Cellar/boost/1.65.1/lib/
 
 #for Lapack version
